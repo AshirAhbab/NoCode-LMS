@@ -41,7 +41,6 @@ if(isset($_POST['submit'])){
    }
 
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -79,10 +78,10 @@ if(isset($message)){
 <section class="form-container">
 
    <form class="register" action="" method="post" enctype="multipart/form-data">
-      <h3>register new</h3>
+      <h3>register as new</h3>
       <div class="flex">
          <div class="col">
-            <p>your name <span>*</span></p>
+            <p>Your Name <span>*</span></p>
             <input type="text" name="name" placeholder="eneter your name" maxlength="50" required class="box">
             <p>your profession <span>*</span></p>
             <select name="profession" class="box" required>
@@ -99,19 +98,19 @@ if(isset($message)){
                <option value="journalist">journalist</option>
                <option value="photographer">photographer</option>
             </select>
-            <p>your email <span>*</span></p>
+            <p>Your Email <span>*</span></p>
             <input type="email" name="email" placeholder="enter your email" maxlength="20" required class="box">
          </div>
          <div class="col">
-            <p>your password <span>*</span></p>
+            <p>Your Password <span>*</span></p>
             <input type="password" name="pass" placeholder="enter your password" maxlength="20" required class="box">
-            <p>confirm password <span>*</span></p>
+            <p>Confirm Password <span>*</span></p>
             <input type="password" name="cpass" placeholder="confirm your password" maxlength="20" required class="box">
             <p>select pic <span>*</span></p>
             <input type="file" name="image" accept="image/*" required class="box">
          </div>
       </div>
-      <p class="link">already have an account? <a href="login.php">login now</a></p>
+      <p class="link">Already have an account? <a href="login.php">Login now</a></p>
       <input type="submit" name="submit" value="register now" class="btn">
    </form>
 

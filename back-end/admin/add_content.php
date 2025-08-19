@@ -46,8 +46,6 @@ if(isset($_POST['submit'])){
       $message[] = 'new course uploaded!';
    }
 
-   
-
 }
 
 ?>
@@ -113,19 +111,6 @@ if(isset($_POST['submit'])){
    </form>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <?php include '../components/footer.php'; ?>
