@@ -107,7 +107,7 @@ if(isset($_POST['save_list'])){
             ?>
          </form>
          <div class="thumb">
-            <span><?= $total_videos; ?> videos</span>
+            <span><?= $total_videos; ?> Videos</span>
             <img src="uploaded_files/<?= $fetch_playlist['thumb']; ?>" alt="">
          </div>
       </div>
@@ -170,10 +170,6 @@ if(isset($_POST['save_list'])){
 </section>
 
 <!-- videos container section ends -->
-
-
-
-
 
 
 

@@ -44,7 +44,7 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 <section class="profile">
 
-   <h1 class="heading">profile details</h1>
+   <h1 class="heading">Profile Details</h1>
 
    <div class="details">
 
@@ -52,7 +52,7 @@ $total_bookmarked = $select_bookmark->rowCount();
          <img src="uploaded_files/<?= $fetch_profile['image']; ?>" alt="">
          <h3><?= $fetch_profile['name']; ?></h3>
          <p>student</p>
-         <a href="update.php" class="inline-btn">update profile</a>
+         <a href="update.php" class="inline-btn">Update Profile</a>
       </div>
 
       <div class="box-container">
@@ -62,7 +62,7 @@ $total_bookmarked = $select_bookmark->rowCount();
                <i class="fas fa-bookmark"></i>
                <div>
                   <h3><?= $total_bookmarked; ?></h3>
-                  <span>saved playlists</span>
+                  <span>Saved Playlists</span>
                </div>
             </div>
             <a href="#" class="inline-btn">view playlists</a>
@@ -97,15 +97,6 @@ $total_bookmarked = $select_bookmark->rowCount();
 </section>
 
 <!-- profile section ends -->
-
-
-
-
-
-
-
-
-
 
 
 

@@ -106,14 +106,6 @@ if(isset($_POST['remove'])){
 </section>
 
 
-
-
-
-
-
-
-
-
 <?php include 'components/footer.php'; ?>
 
 <!-- custom js file link  -->

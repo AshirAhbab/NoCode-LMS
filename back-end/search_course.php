@@ -33,7 +33,7 @@ if(isset($_COOKIE['user_id'])){
 
 <section class="courses">
 
-   <h1 class="heading">search results</h1>
+   <h1 class="heading">Search Results</h1>
 
    <div class="box-container">
 
@@ -77,14 +77,6 @@ if(isset($_COOKIE['user_id'])){
 </section>
 
 <!-- courses section ends -->
-
-
-
-
-
-
-
-
 
 
 <?php include 'components/footer.php'; ?>

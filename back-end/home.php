@@ -45,7 +45,7 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 <section class="quick-select">
 
-   <h1 class="heading">quick options</h1>
+   <h1 class="heading">Quick Options</h1>
 
    <div class="box-container">
 
@@ -102,7 +102,7 @@ $total_bookmarked = $select_bookmark->rowCount();
       </div>
 
       <div class="box tutor">
-         <h3 class="title">become a tutor</h3>
+         <h3 class="title">Become a tutor</h3>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, laudantium.</p>
          <a href="admin/register.php" class="inline-btn">get started</a>
       </div>
@@ -117,7 +117,7 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 <section class="courses">
 
-   <h1 class="heading">latest courses</h1>
+   <h1 class="heading">Latest Courses</h1>
 
    <div class="box-container">
 
@@ -160,14 +160,6 @@ $total_bookmarked = $select_bookmark->rowCount();
 </section>
 
 <!-- courses section ends -->
-
-
-
-
-
-
-
-
 
 
 

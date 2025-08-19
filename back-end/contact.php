@@ -64,7 +64,7 @@ if(isset($_POST['submit'])){
       </div>
 
       <form action="" method="post">
-         <h3>get in touch</h3>
+         <h3>Get in touch</h3>
          <input type="text" placeholder="enter your name" required maxlength="100" name="name" class="box">
          <input type="email" placeholder="enter your email" required maxlength="100" name="email" class="box">
          <input type="number" min="0" max="9999999999" placeholder="enter your number" required maxlength="10" name="number" class="box">
@@ -92,7 +92,7 @@ if(isset($_POST['submit'])){
 
       <div class="box">
          <i class="fas fa-map-marker-alt"></i>
-         <h3>office address</h3>
+         <h3>Office Address</h3>
          <a href="#">floor-2, b-4, Ghana Bhaban building, Baro-bajar, Dhaka, Bangladesh</a>
       </div>
 
@@ -102,13 +102,6 @@ if(isset($_POST['submit'])){
 </section>
 
 <!-- contact section ends -->
-
-
-
-
-
-
-
 
 
 
