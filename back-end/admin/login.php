@@ -17,11 +17,10 @@ if(isset($_POST['submit'])){
      setcookie('tutor_id', $row['id'], time() + 60*60*24*30, '/');
      header('location:dashboard.php');
    }else{
-      $message[] = 'incorrect email or password!';
+      $message[] = 'This email or password is not valid!';
    }
 
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -59,30 +58,18 @@ if(isset($message)){
 <section class="form-container">
 
    <form action="" method="post" enctype="multipart/form-data" class="login">
-      <h3>welcome back!</h3>
-      <p>your email <span>*</span></p>
+      <h3>Welcome back!</h3>
+      <p>Your email <span>*</span></p>
       <input type="email" name="email" placeholder="enter your email" maxlength="20" required class="box">
-      <p>your password <span>*</span></p>
+      <p>Your password <span>*</span></p>
       <input type="password" name="pass" placeholder="enter your password" maxlength="20" required class="box">
-      <p class="link">don't have an account? <a href="register.php">register new</a></p>
+      <p class="link">don't have an account? <a href="register.php">Register new</a></p>
       <input type="submit" name="submit" value="login now" class="btn">
    </form>
 
 </section>
 
 <!-- registe section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <script>
@@ -105,7 +92,6 @@ if(darkMode === 'enabled'){
 }else{
    disableDarkMode();
 }
-
 </script>
    
 </body>
