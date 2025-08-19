@@ -122,13 +122,6 @@ if(isset($message)){
 
 
 
-
-
-
-
-
-
-
 <script>
 
 let darkMode = localStorage.getItem('dark-mode');

@@ -120,7 +120,7 @@ if(isset($_POST['delete_video'])){
 
 <section class="contents">
 
-   <h1 class="heading">playlist videos</h1>
+   <h1 class="heading">Playlist Videos</h1>
 
    <div class="box-container">
 
@@ -155,18 +155,6 @@ if(isset($_POST['delete_video'])){
    </div>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -81,18 +81,6 @@ if(isset($_POST['submit'])){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <?php include '../components/footer.php'; ?>
 
 <script src="../js/admin_script.js"></script>
